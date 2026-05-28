@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css?v=1.6">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">JMS.</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- Main Content -->
+
+    <section class="hero" id="home">
+
+        <!-- LEFT SIDE (IMAGE BOX) -->
+        <div class="hero-left">
+            <img src="images/jmpic.jpg" alt="Profile Picture">
+        </div>
+
+        <!-- RIGHT SIDE (TEXT) -->
+        <div class="hero-right">
+            <h1>Hi, I'm John Mark M. Sagetarios</h1>
+
+            <p class="subtitle">Computer Science Graduate | Aspiring Web Developer</p>
+
+            <p class="description">
+                I believe that technology is not just about writing code,
+                but about solving real-world problems and improving lives through innovation. I am passionate
+                about learning new technologies, building projects, and continuously improving my skills in
+                programming and software development.
+            </p>
+
+            <p class="quote">
+                "Every problem has a solution - it just takes logic, patience, and creativity to find it."
+            </p>
+            <a href="#contact" class="cv-btn">LET'S WORK TOGETHER</a>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+
+        <!-- TOP TITLE -->
+        <div class="about-header reveal">
+            <h2 class="about-title">About Me</h2>
+
+            <div class="about-line"></div>
+
+            <p class="about-short-desc">
+                Passionate about technology, programming, web development, and continuous learning.
+            </p>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="about-content">
+
+            <!-- LEFT TEXT -->
+            <div class="about-text reveal-left">
+
+                <p>
+                    I am a Computer Science graduate passionate about web development, programming, and technology. I
+                    enjoy creating modern and responsive websites while continuously improving my skills in both
+                    frontend and backend development.
+                </p>
+
+
+                <p>
+                    I completed my internship at AGC (Alturas Group of Companies) as a Frontend Developer, where I
+                    gained experience in web development, teamwork, and real-world project collaboration. I graduated
+                    with a Bachelor of Science in Computer Science at BISU Calape Campus in San Isidro, Calape, Bohol.
+                    Dedicated to improving my programming skills, I am eager to grow professionally in the field of
+                    software and web development.
+                </p>
+
+            </div>
+
+            <!-- RIGHT IMAGE -->
+            <div class="about-image reveal-right">
+                <div class="about-card">
+                    <div class="about-img-box">
+                        <img src="images/graduationpics.jpg" alt="About Me Picture" class="about-img">
+                    </div>
+                    <a href="file/cvfile.pdf" target="_blank" class="project-btn">VIEW CV</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+
+        <div class="skills-header reveal">
+            <h2 class="skills-title">My Skills</h2>
+            <div class="skills-line"></div>
+            <p class="skills-description">
+                I continuously improve my technical and personal skills to become
+                a better web developer and create modern, responsive, and user-friendly projects.
+            </p>
+        </div>
+
+        <div class="skills-wrapper">
+
+            <!-- LEFT SIDE -->
+            <div class="technical-section reveal-left">
+
+                <h3 class="technical-title">Technical Skills</h3>
+
+                <div class="technical-skills">
+
+                    <div class="tech-item">
+                        <img src="images/htmlpicicon.png" alt="">
+                        <p>HTML</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="images/csspic.png" alt="">
+                        <p>CSS</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="images/jspic.png" alt="">
+                        <p>JavaScript</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="images/php_.png" alt="">
+                        <p>PHP</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="images/vscodepic.png" alt="">
+                        <p>VS Code</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="images/githubpic.png" alt="">
+                        <p>GitHub</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="images/mysqlpic.png" alt="">
+                        <p>MySQL</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="images/gptpic.png" alt="">
+                        <p> ChatGPT</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="images/cursor.png" alt="">
+                        <p>Cursor</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="soft-section reveal-right">
+
+                <h3 class="soft-title">Soft Skills</h3>
+
+                <div class="soft-skills">
+                    <div class="soft-item">Adaptability</div>
+                    <div class="soft-item">Responsibility</div>
+                    <div class="soft-item">Time Management</div>
+                    <div class="soft-item">Reliability</div>
+                    <div class="soft-item">Teamwork</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+
+        <div class="projects-header reveal">
+            <h2 class="projects-title">My Projects</h2>
+            <div class="projects-line"></div>
+            <p class="projects-short-desc">
+                Here are some of the web development projects I have built and worked on.
+            </p>
+        </div>
+
+        <div class="slider-container reveal">
+            <div class="projects-window">
+                <div class="projects-wrapper">
+                    <!-- First Project Box -->
+                    <div class="project-card">
+                        <div class="project-img-box">
+                            <img src="images/smartlocal.jfif" alt="SmartLocal Project Screenshot" class="project-img">
+                        </div>
+                        <h3 class="project-card-title">SmartLocal</h3>
+                        <p class="project-desc">SmartLocal is a barangay information and services system that improves
+                            accessibility, efficiency, and transparency by connecting residents and barangay officials
+                            through
+                            one convenient platform.</p>
+                        <a href="https://smartlocal.calapebohol.com/" target="_blank" class="project-btn">View
+                            Project</a>
+                    </div>
+
+                    <!-- Second Project Box -->
+                    <div class="project-card">
+                        <div class="project-img-box">
+                            <img src="images/boardease.jfif" alt="BoardEase Project Screenshot" class="project-img">
+                        </div>
+                        <h3 class="project-card-title">BoardEase</h3>
+                        <p class="project-desc">A smart boarding management system that simplifies tenant management,
+                            room assignments, billing, and rent payment tracking through an efficient and user-friendly
+                            interface. (Currently hosted locally for development and academic purposes.)
+                        </p>
+                        <a href="#" class="project-btn local-btn" onclick="return false;">Local Project</a>
+                    </div>
+
+                    <!-- Third Project Box -->
+                    <div class="project-card">
+                        <div class="project-img-box">
+                            <img src="images/coming_soon.png" alt="Coming Soon Placeholder"
+                                class="project-img coming-soon-img">
+                        </div>
+                        <h3 class="project-card-title">Coming Soon</h3>
+                        <p class="project-desc">This is a placeholder for my next upcoming project. More projects will
+                            be added as they are developed!</p>
+                        <a href="#" class="project-btn coming-soon-btn" onclick="return false;">Coming Soon</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider Controls -->
+            <div class="slider-controls">
+                <button class="slider-btn prev-btn" aria-label="Previous project">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="3" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
+                </button>
+                <button class="slider-btn next-btn" aria-label="Next project">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="3" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- CONTACTS SECTION -->
+    <section class="contact" id="contact">
+
+        <div class="contact-header reveal">
+            <h2 class="contact-title">Connect With Me</h2>
+            <div class="contact-line"></div>
+            <p class="contact-short-desc">
+                Feel free to reach out to me for collaborations and job opportunities!
+            </p>
+        </div>
+
+        <div class="contact-content">
+            <!-- Left Side Contact Box -->
+            <div class="contact-left reveal-left">
+                <div class="contact-box">
+                    <h3>Contact Information</h3>
+
+                    <div class="contact-item">
+                        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img
+                                src="images/emailicon.png" alt="Email Icon" class="contact-icon"></a>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"
+                                class="contact-link">johnmarksagetarios114@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <a href="tel:+639933894167"><img src="images/phonepic.png" alt="Phone Icon"
+                                class="contact-icon"></a>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+639933894167" class="contact-link">+63 993 389 4167</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <a href="https://www.google.com/maps/place/Ubayon,+Loon,+Bohol/@9.84357,123.8146901,17z/data=!3m1!4b1!4m6!3m5!1s0x33aa34a04ec20401:0x6997c0df6fc8c3d4!8m2!3d9.8412143!4d123.8174018!16s%2Fg%2F11fyxdbc59?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank"><img src="images/locationpic.png" alt="Location Icon"
+                                class="contact-icon"></a>
+                        <div class="contact-details">
+                            <span class="contact-label">Location</span>
+                            <a href="https://www.google.com/maps/place/Ubayon,+Loon,+Bohol/@9.84357,123.8146901,17z/data=!3m1!4b1!4m6!3m5!1s0x33aa34a04ec20401:0x6997c0df6fc8c3d4!8m2!3d9.8412143!4d123.8174018!16s%2Fg%2F11fyxdbc59?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+                                target="_blank" class="contact-link">Ubayon, Loon, Bohol</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <a href="https://www.linkedin.com/in/john-mark-sagetarios-61509a379/?skipRedirect=true"
+                            target="_blank"><img src="images/linkedinicon.png" alt="LinkedIn Icon"
+                                class="contact-icon"></a>
+                        <div class="contact-details">
+                            <span class="contact-label">LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/john-mark-sagetarios-61509a379/?skipRedirect=true"
+                                target="_blank" class="contact-link">John Mark Sagetarios</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <a href="https://www.facebook.com/sagetarios12" target="_blank"><img src="images/fbicons.png"
+                                alt="Facebook Icon" class="contact-icon"></a>
+                        <div class="contact-details">
+                            <span class="contact-label">Facebook</span>
+                            <a href="https://www.facebook.com/sagetarios12" target="_blank" class="contact-link">John
+                                Mark Sagetarios</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side Contact Form -->
+            <div class="contact-right reveal-right">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form"
+                    id="portfolio-contact-form">
+                    <input type="hidden" name="access_key" value="fc0327f8-1f00-42ff-934b-690b174df499">
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <h3>Send Message</h3>
+
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Your Email Address">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required placeholder="Subject">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" name="message" required placeholder="Your Messages" rows="4"></textarea>
+                    </div>
+
+                    <button type="submit" class="contact-form-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+
+
+            <p class="footer-copy">&copy; 2026 John Mark Sagetarios. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
